@@ -1,0 +1,48 @@
+.menu {
+    height: 43px;
+    background: rgb(22, 22, 78);
+    color: #FF0000;
+    text-align: center;
+  }
+  
+  .menu span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    border : 1px solid #FFFFFF;
+    display: inline-block;
+    width: 132px;
+    height: 25px;
+    background: rgb(22, 22, 78);
+    color: #FFFFFF;
+    position: relative;
+    /* margin-top: 0px; */
+    padding-top: 17px;
+  }
+  
+  /* .menu nav nav{
+    top: 0;
+    left: 100%;
+  } */
+  
+  .menu span:hover{
+    font-weight: bold;
+    color: rgb(39, 228, 15);
+    cursor: pointer;
+  }
+  .menu nav{
+    display: none;
+  }
+  .menu span:hover > nav{
+    display: block;
+    position: absolute;
+  }
+
+  /* Responsive  */
+
+  @media screen and (max-width : 768px){
+      .menu{
+          /* căn menu ra giữa khi thay đổi width */
+          max-width: 768px;
+          margin: 0 auto;
+          background: deepskyblue;
+      }
+  }
