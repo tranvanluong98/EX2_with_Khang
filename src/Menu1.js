@@ -1,6 +1,5 @@
 import React , {Component} from 'react';
-import './CSS/Menu1.css';
-import Menu2 from './Menu2';
+
 class Menu1 extends Component{
     render(){
         return(
@@ -14,6 +13,7 @@ class Menu1 extends Component{
           
         </span>
         
+       
        
         <span>
             SHOP PADDLE BOARDING
