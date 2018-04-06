@@ -11,7 +11,25 @@ class Body1 extends React.Component {
                      You think your 13 megabyte parallax-ative home page is going to get you some fucking Awwward banner you can glue to the top corner of your site. You think your 40-pound jQuery file and 83 polyfills give IE7 a boner because it finally has box-shadow. Wrong, motherfucker. Let me describe your perfect-ass website:
                 </p>
                 <img src="http://www.kinyu-z.net/data/wallpapers/48/868525.jpg" className="img1" />
-
+                <div className="arr_img">
+                    <ul className="ul1 img2" >
+                        <li>
+                            <a href="#">
+                                <img src="https://dangbo.lhu.edu.vn/Data/News/201/images/thanh_lap_dang/co_dang_bac_jpg.jpg" style={{ width: "130px", height: "70px", border: "5px" }} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://dangbo.lhu.edu.vn/Data/News/201/images/thanh_lap_dang/co_dang_bac_jpg.jpg" style={{ width: "130px", height: "70px" , border: "5px"}} />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://dangbo.lhu.edu.vn/Data/News/201/images/thanh_lap_dang/co_dang_bac_jpg.jpg" style={{ width: "130px", height: "70px", border: "5px" }} />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <h2 className="h1 p1" style={{ color: "rgb(0,0,255)" }}>
                     MAIN FEATURES:
                 <hr />
@@ -26,7 +44,7 @@ class Body1 extends React.Component {
                             Another features in this position right here
                         </li>
                         <br />
-                       
+
                         <li>
                             Filler dummy text
                         </li>

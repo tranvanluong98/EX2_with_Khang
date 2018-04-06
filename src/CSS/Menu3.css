@@ -1,0 +1,54 @@
+.menu3 {
+  margin-top: 40px;
+  margin-left: 15px;
+    width: 50%;
+    height: 43px;
+    color: #FF0000;
+    text-align: center;
+  }
+  
+  .menu3 span{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    border : 1px solid #FFFFFF;
+    display: inline-block;
+    width: 166px;
+    height: 34px;
+    background: rgb(238, 238, 230);
+    color: rgb(18, 18, 245);
+    position: relative;
+    /* margin-top: 0px; */
+    padding-top: 17px;
+    font-weight: 800;
+    border-radius: 5px;
+  }
+  
+  /* .menu1 nav nav{
+    top: 0;
+    left: 100%;
+  } */
+  
+  .menu3 span:hover{
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color: rgb(243, 77, 17);
+    cursor: pointer;
+  }
+  .menu3 nav{
+    display: none;
+  }
+  .menu3 span:hover > nav{
+    display: block;
+    position: absolute;
+  }
+
+  /* Responsive  */
+
+  @media screen and (max-width : 768px){
+      .menu3{
+          /* căn menu ra giữa khi thay đổi width */
+          max-width: 768px;
+          margin: 0 auto;
+          background: deepskyblue;
+      }
+  }

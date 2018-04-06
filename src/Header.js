@@ -8,6 +8,7 @@ class Header extends React.Component {
         return (
 
             <div>
+                
                 <header >
                     <div>
                         <a className="logo" title="Trang chu" href="/">
@@ -65,7 +66,7 @@ class Header extends React.Component {
                         </nav>
                         <input type="text" className="search_cell" name="search" placeholder="Enter your keywords to make a search..." />
                         <button className="search_bt">SEARCH</button>
-                        <img src={require('./logo/right-arrow  red.png')} style={{ width: "7px", height: "7px", marginLeft:"32%" ,marginBottom: "-7px"}} />
+                        <img src={require('./LOGO/right-arrow  red.png')} style={{ width: "7px", height: "7px", marginLeft:"32%" ,marginBottom: "-7px"}} />
                         <div>
                             <img src="https://freeiconshop.com/wp-content/uploads/edd/cart-outline.png" className= "shopicon" />
                             

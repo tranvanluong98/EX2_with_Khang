@@ -1,0 +1,95 @@
+.mail{
+    width: 335px;
+    margin-left: 33%;
+}
+.linkHref{
+    
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 55px;
+}
+.linkHref:hover{
+    color: rgb(218, 36, 36);
+    
+}
+#fb{
+    width: 20px;
+    height: 20px;
+    margin-left: -148px;
+    margin-top: 37px;
+    position: absolute;
+}
+#tw{
+    width: 20px;
+    height: 20px;
+    margin-left: -10%;
+    margin-top: 37px;
+    position: absolute;
+}
+#google{
+    
+    width: 20px;
+    height: 20px;
+    margin-left: -140px;
+    margin-top: 37px;
+    position: absolute;
+    
+}
+.footer{
+    margin-left: 15px;
+    background-color: rgb(66, 64, 64);
+    height: 35px;
+    color: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#text1{
+
+    margin-top: 11px;
+    position: absolute;
+    margin-left: 100px;
+}
+#text1:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(233, 16, 16);
+}
+#text2{
+    margin-top: 11px;
+    position: absolute;
+    text-align: right;
+    margin-left: 90%;
+}
+#text2:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(233, 16, 16);
+}
+#text3{
+    margin-top: 11px;
+    position: absolute;
+    text-align: right;
+    margin-left: 72%;
+}
+#text3:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(233, 16, 16);
+}
+
+#text4{
+    margin-top: 11px;
+    position: absolute;
+    text-align: right;
+    margin-left: 82%;
+}
+#text4:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(233, 16, 16);
+}
+.upToWeb {
+   margin-top: -40px;
+    margin-left: 3%;
+    cursor: pointer; 
+}   
